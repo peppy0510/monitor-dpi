@@ -52,7 +52,6 @@ class Monitor:
         return pow(self.resolution.width ** 2 + self.resolution.height ** 2, 0.5) / self.size
 
     def compare(self, monitors, sort=True, limit=None):
-        print('|:----------------:|:-----------:|:------------:|:----------------:|')
         print('{}        REFERENCE |'.format(self))
         print('|:----------------:|:-----------:|:------------:|:----------------:|')
         compared = [(v, abs(self - v)) for v in monitors.values() if v != self]
@@ -62,7 +61,7 @@ class Monitor:
             compared = compared[:limit]
         for v, delta in compared:
             print('{} DELTA: {:06.03f}dpi |'.format(v, delta))
-        print('-' * 68)
+        # print('-' * 68)
         print()
         return compared
 
