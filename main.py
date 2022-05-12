@@ -11,11 +11,13 @@ from operator import itemgetter
 
 
 COMMON_MONITORS = [
-    ((3840, 2160), (32, 40, 41.5, 42.51, 43, 48, 49)),
-    ((3840, 1600), (48,)),
-    ((3440, 1440), (34,)),
+    ((5120, 2160), (40,)),
+    ((5120, 1440), (49,)),
+    ((3840, 2160), (27, 28, 32, 40, 41.5, 42.51, 43, 48, 49,)),
+    ((3840, 1600), (37.5, 38, 48,)),
+    ((3440, 1440), (34, 35,)),
     ((2560, 1600), (30,)),
-    ((2560, 1440), (27,)),
+    ((2560, 1440), (25, 27, 32,)),
     ((2560, 1080), (34,)),
     ((1920, 1200), (24, 32,)),
     ((1920, 1080), (20, 21.5, 23, 24, 27, 32,)),
@@ -94,9 +96,14 @@ if __name__ == '__main__':
     monitors.compare(21.5, (1920, 1080), limit=limit)
     monitors.compare(23, (1920, 1080), limit=limit)
     monitors.compare(24, (1920, 1080), limit=limit)
+    monitors.compare(25, (2560, 1440), limit=limit)
     monitors.compare(27, (1920, 1080), limit=limit)
     monitors.compare(27, (2560, 1440), limit=limit)
     monitors.compare(30, (2560, 1600), limit=limit)
     monitors.compare(34, (3440, 1440), limit=limit)
     monitors.compare(40, (3840, 2160), limit=limit)
+    monitors.compare(40, (5120, 2160), limit=limit)
+    monitors.compare(41.5, (3840, 2160), limit=limit)
+    monitors.compare(42.51, (3840, 2160), limit=limit)
     monitors.compare(43, (3840, 2160), limit=limit)
+    monitors.compare(49, (5120, 1440), limit=limit)
