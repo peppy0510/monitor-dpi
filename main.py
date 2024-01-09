@@ -11,6 +11,7 @@ from operator import itemgetter
 
 
 COMMON_MONITORS = [
+    ((7680, 2160), (57,)),
     ((5120, 2160), (40,)),
     ((5120, 1440), (49,)),
     ((3840, 2160), (27, 28, 32, 40, 41.5, 42.51, 43, 48, 49,)),
@@ -42,9 +43,12 @@ class Monitor:
         self.resolution = resolution
 
     def __repr__(self):
-        return '| PIXEL: {width:4d}x{height:4d} | SIZE: {size:05.02f} | DPI: {dpi:07.03f} |'.format(**{
-            'width': self.resolution.width, 'height': self.resolution.height,
-            'size': self.size, 'dpi': self.dpi})
+        line = ' | '.join([
+            f'PIXEL: {self.resolution.width:4d}x{self.resolution.height:4d}',
+            f'SIZE: {self.size:05.02f}',
+            f'DPI: {self.dpi:07.03f}',
+        ])
+        return f'| {line} |'
 
     def __sub__(self, monitor):
         return self.dpi - monitor.dpi
@@ -107,3 +111,4 @@ if __name__ == '__main__':
     monitors.compare(42.51, (3840, 2160), limit=limit)
     monitors.compare(43, (3840, 2160), limit=limit)
     monitors.compare(49, (5120, 1440), limit=limit)
+    monitors.compare(57, (7680, 2160), limit=limit)
