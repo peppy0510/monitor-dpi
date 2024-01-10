@@ -103,6 +103,7 @@ if __name__ == '__main__':
     monitors.compare(25, (2560, 1440), limit=limit)
     monitors.compare(27, (1920, 1080), limit=limit)
     monitors.compare(27, (2560, 1440), limit=limit)
+    monitors.compare(32, (2560, 1440), limit=limit)
     monitors.compare(30, (2560, 1600), limit=limit)
     monitors.compare(34, (3440, 1440), limit=limit)
     monitors.compare(40, (3840, 2160), limit=limit)
