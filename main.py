@@ -50,7 +50,7 @@ class Monitor:
             f'SIZE: {self.size:05.02f}',
             f'PIXEL: {self.resolution.width:4d}x{self.resolution.height:4d}',
             # f'DPI: {self.dpi:07.03f}',
-            f'PP: {self.pp:07.05f} mm',
+            f'PP: {self.pp:08.06f} mm',
         ])
         return f'| {line} |'
 
@@ -68,7 +68,7 @@ class Monitor:
 
     def compare(self, monitors, sort=True, limit=None, delta_limit=None):
         print('{}          REFERENCE |'.format(self))
-        print('|:-----------:|:----------------:|:---------------:|:-----------------:|')
+        print('|:-----------:|:----------------:|:---------------:|:------------------:|')
         # print('{}        REFERENCE |'.format(self))
         # print('|:----------------:|:-----------:|:------------:|:----------------:|')
         compared = [(v, abs(self - v)) for v in monitors.values() if v != self]
@@ -81,7 +81,7 @@ class Monitor:
 
         if compared:
             for v, delta in compared:
-                print('{} DELTA: {:07.06f} mm |'.format(v, delta))
+                print('{} DELTA: {:08.06f} mm |'.format(v, delta))
                 # print('{} DELTA: {:06.03f}dpi |'.format(v, delta))
             # print('-' * 68)
             print()
