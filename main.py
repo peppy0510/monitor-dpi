@@ -49,20 +49,27 @@ class Monitor:
         line = ' | '.join([
             f'SIZE: {self.size:05.02f}',
             f'PIXEL: {self.resolution.width:4d}x{self.resolution.height:4d}',
-            f'DPI: {self.dpi:07.03f}',
+            # f'DPI: {self.dpi:07.03f}',
+            f'PP: {self.pp:07.05f} mm',
         ])
         return f'| {line} |'
 
     def __sub__(self, monitor):
-        return self.dpi - monitor.dpi
+        return self.pp - monitor.pp
+        # return self.dpi - monitor.dpi
 
     @property
     def dpi(self):
         return pow(self.resolution.width ** 2 + self.resolution.height ** 2, 0.5) / self.size
 
+    @property
+    def pp(self):
+        return 25.4 / self.dpi
+
     def compare(self, monitors, sort=True, limit=None, delta_limit=None):
-        print('{}        REFERENCE |'.format(self))
-        print('|:-----------:|:----------------:|:------------:|:----------------:|')
+        print('{}          REFERENCE |'.format(self))
+        print('|:-----------:|:----------------:|:---------------:|:-----------------:|')
+        # print('{}        REFERENCE |'.format(self))
         # print('|:----------------:|:-----------:|:------------:|:----------------:|')
         compared = [(v, abs(self - v)) for v in monitors.values() if v != self]
         if sort:
@@ -72,10 +79,12 @@ class Monitor:
         if delta_limit:
             compared = [v for v in compared if v[-1] <= delta_limit]
 
-        for v, delta in compared:
-            print('{} DELTA: {:06.03f}dpi |'.format(v, delta))
-        # print('-' * 68)
-        print()
+        if compared:
+            for v, delta in compared:
+                print('{} DELTA: {:07.06f} mm |'.format(v, delta))
+                # print('{} DELTA: {:06.03f}dpi |'.format(v, delta))
+            # print('-' * 68)
+            print()
         return compared
 
 
@@ -104,7 +113,7 @@ monitors = Monitors(COMMON_MONITORS)
 
 if __name__ == '__main__':
     limit = 20
-    delta_limit = 5.0
+    delta_limit = 0.01
     monitors.compare(20, (1920, 1080), limit=limit, delta_limit=delta_limit)
     monitors.compare(21.5, (1920, 1080), limit=limit, delta_limit=delta_limit)
     monitors.compare(23, (1920, 1080), limit=limit, delta_limit=delta_limit)
