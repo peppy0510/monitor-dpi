@@ -1,135 +1,190 @@
-| PIXEL: 1920x1080 | SIZE: 20.00 | DPI: 110.145 |        REFERENCE |
-|:----------------:|:-----------:|:------------:|:----------------:|
-| PIXEL: 3840x2160 | SIZE: 40.00 | DPI: 110.145 | DELTA: 00.000dpi |
-| PIXEL: 3440x1440 | SIZE: 34.00 | DPI: 109.683 | DELTA: 00.462dpi |
-| PIXEL: 3840x1600 | SIZE: 38.00 | DPI: 109.474 | DELTA: 00.672dpi |
-| PIXEL: 3840x1600 | SIZE: 37.50 | DPI: 110.933 | DELTA: 00.788dpi |
-| PIXEL: 2560x1440 | SIZE: 27.00 | DPI: 108.786 | DELTA: 01.360dpi |
+| SIZE: 20.00 | PIXEL: 1920x1080 | DPI: 110.145 |        REFERENCE |
+|:-----------:|:----------------:|:------------:|:----------------:|
+| SIZE: 40.00 | PIXEL: 3840x2160 | DPI: 110.145 | DELTA: 00.000dpi |
+| SIZE: 34.00 | PIXEL: 3440x1440 | DPI: 109.683 | DELTA: 00.462dpi |
+| SIZE: 38.00 | PIXEL: 3840x1600 | DPI: 109.474 | DELTA: 00.672dpi |
+| SIZE: 37.50 | PIXEL: 3840x1600 | DPI: 110.933 | DELTA: 00.788dpi |
+| SIZE: 27.00 | PIXEL: 2560x1440 | DPI: 108.786 | DELTA: 01.360dpi |
+| SIZE: 49.00 | PIXEL: 5120x1440 | DPI: 108.544 | DELTA: 01.602dpi |
+| SIZE: 26.00 | PIXEL: 2560x1080 | DPI: 106.865 | DELTA: 03.280dpi |
+| SIZE: 35.00 | PIXEL: 3440x1440 | DPI: 106.550 | DELTA: 03.596dpi |
+| SIZE: 41.50 | PIXEL: 3840x2160 | DPI: 106.164 | DELTA: 03.981dpi |
 
-| PIXEL: 1920x1080 | SIZE: 21.50 | DPI: 102.461 |        REFERENCE |
-|:----------------:|:-----------:|:------------:|:----------------:|
-| PIXEL: 3840x2160 | SIZE: 43.00 | DPI: 102.461 | DELTA: 00.000dpi |
-| PIXEL: 3840x2160 | SIZE: 42.51 | DPI: 103.642 | DELTA: 01.181dpi |
-| PIXEL: 2560x1600 | SIZE: 30.00 | DPI: 100.629 | DELTA: 01.832dpi |
-| PIXEL: 3840x2160 | SIZE: 41.50 | DPI: 106.164 | DELTA: 03.703dpi |
-| PIXEL: 3440x1440 | SIZE: 35.00 | DPI: 106.550 | DELTA: 04.089dpi |
+| SIZE: 21.50 | PIXEL: 1920x1080 | DPI: 102.461 |        REFERENCE |
+|:-----------:|:----------------:|:------------:|:----------------:|
+| SIZE: 43.00 | PIXEL: 3840x2160 | DPI: 102.461 | DELTA: 00.000dpi |
+| SIZE: 42.51 | PIXEL: 3840x2160 | DPI: 103.642 | DELTA: 01.181dpi |
+| SIZE: 30.00 | PIXEL: 2560x1600 | DPI: 100.629 | DELTA: 01.832dpi |
+| SIZE: 41.50 | PIXEL: 3840x2160 | DPI: 106.164 | DELTA: 03.703dpi |
+| SIZE: 35.00 | PIXEL: 3440x1440 | DPI: 106.550 | DELTA: 04.089dpi |
+| SIZE: 26.00 | PIXEL: 2560x1080 | DPI: 106.865 | DELTA: 04.404dpi |
 
-| PIXEL: 1920x1080 | SIZE: 23.00 | DPI: 095.779 |        REFERENCE |
-|:----------------:|:-----------:|:------------:|:----------------:|
-| PIXEL: 1920x1200 | SIZE: 24.00 | DPI: 094.340 | DELTA: 01.439dpi |
-| PIXEL: 3840x2160 | SIZE: 48.00 | DPI: 091.788 | DELTA: 03.991dpi |
-| PIXEL: 2560x1440 | SIZE: 32.00 | DPI: 091.788 | DELTA: 03.991dpi |
-| PIXEL: 1920x1080 | SIZE: 24.00 | DPI: 091.788 | DELTA: 03.991dpi |
-| PIXEL: 2560x1600 | SIZE: 30.00 | DPI: 100.629 | DELTA: 04.851dpi |
+| SIZE: 23.00 | PIXEL: 1920x1080 | DPI: 095.779 |        REFERENCE |
+|:-----------:|:----------------:|:------------:|:----------------:|
+| SIZE: 29.00 | PIXEL: 2560x1080 | DPI: 095.810 | DELTA: 00.031dpi |
+| SIZE: 24.00 | PIXEL: 1920x1200 | DPI: 094.340 | DELTA: 01.439dpi |
+| SIZE: 30.00 | PIXEL: 2560x1080 | DPI: 092.616 | DELTA: 03.162dpi |
+| SIZE: 48.00 | PIXEL: 3840x2160 | DPI: 091.788 | DELTA: 03.991dpi |
+| SIZE: 32.00 | PIXEL: 2560x1440 | DPI: 091.788 | DELTA: 03.991dpi |
+| SIZE: 24.00 | PIXEL: 1920x1080 | DPI: 091.788 | DELTA: 03.991dpi |
+| SIZE: 30.00 | PIXEL: 2560x1600 | DPI: 100.629 | DELTA: 04.851dpi |
 
-| PIXEL: 1920x1080 | SIZE: 24.00 | DPI: 091.788 |        REFERENCE |
-|:----------------:|:-----------:|:------------:|:----------------:|
-| PIXEL: 3840x2160 | SIZE: 48.00 | DPI: 091.788 | DELTA: 00.000dpi |
-| PIXEL: 2560x1440 | SIZE: 32.00 | DPI: 091.788 | DELTA: 00.000dpi |
-| PIXEL: 3840x2160 | SIZE: 49.00 | DPI: 089.915 | DELTA: 01.873dpi |
-| PIXEL: 1920x1200 | SIZE: 24.00 | DPI: 094.340 | DELTA: 02.552dpi |
-| PIXEL: 1920x1080 | SIZE: 23.00 | DPI: 095.779 | DELTA: 03.991dpi |
+| SIZE: 24.00 | PIXEL: 1920x1080 | DPI: 091.788 |        REFERENCE |
+|:-----------:|:----------------:|:------------:|:----------------:|
+| SIZE: 48.00 | PIXEL: 3840x2160 | DPI: 091.788 | DELTA: 00.000dpi |
+| SIZE: 32.00 | PIXEL: 2560x1440 | DPI: 091.788 | DELTA: 00.000dpi |
+| SIZE: 30.00 | PIXEL: 2560x1080 | DPI: 092.616 | DELTA: 00.828dpi |
+| SIZE: 49.00 | PIXEL: 3840x2160 | DPI: 089.915 | DELTA: 01.873dpi |
+| SIZE: 24.00 | PIXEL: 1920x1200 | DPI: 094.340 | DELTA: 02.552dpi |
+| SIZE: 23.00 | PIXEL: 1920x1080 | DPI: 095.779 | DELTA: 03.991dpi |
+| SIZE: 29.00 | PIXEL: 2560x1080 | DPI: 095.810 | DELTA: 04.022dpi |
 
-| PIXEL: 2560x1440 | SIZE: 25.00 | DPI: 117.488 |        REFERENCE |
-|:----------------:|:-----------:|:------------:|:----------------:|
-| PIXEL: 3840x1600 | SIZE: 37.50 | DPI: 110.933 | DELTA: 06.555dpi |
-| PIXEL: 3840x2160 | SIZE: 40.00 | DPI: 110.145 | DELTA: 07.343dpi |
-| PIXEL: 1920x1080 | SIZE: 20.00 | DPI: 110.145 | DELTA: 07.343dpi |
-| PIXEL: 3440x1440 | SIZE: 34.00 | DPI: 109.683 | DELTA: 07.805dpi |
-| PIXEL: 3840x1600 | SIZE: 38.00 | DPI: 109.474 | DELTA: 08.015dpi |
+| SIZE: 25.00 | PIXEL: 2560x1440 | DPI: 117.488 |        REFERENCE |
+|:-----------:|:----------------:|:------------:|:----------------:|
+| SIZE: 37.00 | PIXEL: 3840x2160 | DPI: 119.076 | DELTA: 01.588dpi |
 
-| PIXEL: 1920x1080 | SIZE: 27.00 | DPI: 081.589 |        REFERENCE |
-|:----------------:|:-----------:|:------------:|:----------------:|
-| PIXEL: 2560x1080 | SIZE: 34.00 | DPI: 081.720 | DELTA: 00.131dpi |
-| PIXEL: 3840x1600 | SIZE: 48.00 | DPI: 086.667 | DELTA: 05.078dpi |
-| PIXEL: 3840x2160 | SIZE: 49.00 | DPI: 089.915 | DELTA: 08.325dpi |
-| PIXEL: 3840x2160 | SIZE: 48.00 | DPI: 091.788 | DELTA: 10.199dpi |
-| PIXEL: 2560x1440 | SIZE: 32.00 | DPI: 091.788 | DELTA: 10.199dpi |
+| SIZE: 27.00 | PIXEL: 1920x1080 | DPI: 081.589 |        REFERENCE |
+|:-----------:|:----------------:|:------------:|:----------------:|
+| SIZE: 34.00 | PIXEL: 2560x1080 | DPI: 081.720 | DELTA: 00.131dpi |
 
-| PIXEL: 2560x1440 | SIZE: 27.00 | DPI: 108.786 |        REFERENCE |
-|:----------------:|:-----------:|:------------:|:----------------:|
-| PIXEL: 5120x1440 | SIZE: 49.00 | DPI: 108.544 | DELTA: 00.242dpi |
-| PIXEL: 3840x1600 | SIZE: 38.00 | DPI: 109.474 | DELTA: 00.688dpi |
-| PIXEL: 3440x1440 | SIZE: 34.00 | DPI: 109.683 | DELTA: 00.898dpi |
-| PIXEL: 3840x2160 | SIZE: 40.00 | DPI: 110.145 | DELTA: 01.360dpi |
-| PIXEL: 1920x1080 | SIZE: 20.00 | DPI: 110.145 | DELTA: 01.360dpi |
+| SIZE: 27.00 | PIXEL: 2560x1440 | DPI: 108.786 |        REFERENCE |
+|:-----------:|:----------------:|:------------:|:----------------:|
+| SIZE: 49.00 | PIXEL: 5120x1440 | DPI: 108.544 | DELTA: 00.242dpi |
+| SIZE: 38.00 | PIXEL: 3840x1600 | DPI: 109.474 | DELTA: 00.688dpi |
+| SIZE: 34.00 | PIXEL: 3440x1440 | DPI: 109.683 | DELTA: 00.898dpi |
+| SIZE: 40.00 | PIXEL: 3840x2160 | DPI: 110.145 | DELTA: 01.360dpi |
+| SIZE: 20.00 | PIXEL: 1920x1080 | DPI: 110.145 | DELTA: 01.360dpi |
+| SIZE: 26.00 | PIXEL: 2560x1080 | DPI: 106.865 | DELTA: 01.921dpi |
+| SIZE: 37.50 | PIXEL: 3840x1600 | DPI: 110.933 | DELTA: 02.148dpi |
+| SIZE: 35.00 | PIXEL: 3440x1440 | DPI: 106.550 | DELTA: 02.236dpi |
+| SIZE: 41.50 | PIXEL: 3840x2160 | DPI: 106.164 | DELTA: 02.621dpi |
 
-| PIXEL: 2560x1440 | SIZE: 32.00 | DPI: 091.788 |        REFERENCE |
-|:----------------:|:-----------:|:------------:|:----------------:|
-| PIXEL: 3840x2160 | SIZE: 48.00 | DPI: 091.788 | DELTA: 00.000dpi |
-| PIXEL: 1920x1080 | SIZE: 24.00 | DPI: 091.788 | DELTA: 00.000dpi |
-| PIXEL: 3840x2160 | SIZE: 49.00 | DPI: 089.915 | DELTA: 01.873dpi |
-| PIXEL: 1920x1200 | SIZE: 24.00 | DPI: 094.340 | DELTA: 02.552dpi |
-| PIXEL: 1920x1080 | SIZE: 23.00 | DPI: 095.779 | DELTA: 03.991dpi |
+| SIZE: 30.00 | PIXEL: 2560x1600 | DPI: 100.629 |        REFERENCE |
+|:-----------:|:----------------:|:------------:|:----------------:|
+| SIZE: 43.00 | PIXEL: 3840x2160 | DPI: 102.461 | DELTA: 01.832dpi |
+| SIZE: 21.50 | PIXEL: 1920x1080 | DPI: 102.461 | DELTA: 01.832dpi |
+| SIZE: 42.51 | PIXEL: 3840x2160 | DPI: 103.642 | DELTA: 03.013dpi |
+| SIZE: 29.00 | PIXEL: 2560x1080 | DPI: 095.810 | DELTA: 04.819dpi |
+| SIZE: 23.00 | PIXEL: 1920x1080 | DPI: 095.779 | DELTA: 04.851dpi |
 
-| PIXEL: 2560x1600 | SIZE: 30.00 | DPI: 100.629 |        REFERENCE |
-|:----------------:|:-----------:|:------------:|:----------------:|
-| PIXEL: 3840x2160 | SIZE: 43.00 | DPI: 102.461 | DELTA: 01.832dpi |
-| PIXEL: 1920x1080 | SIZE: 21.50 | DPI: 102.461 | DELTA: 01.832dpi |
-| PIXEL: 3840x2160 | SIZE: 42.51 | DPI: 103.642 | DELTA: 03.013dpi |
-| PIXEL: 1920x1080 | SIZE: 23.00 | DPI: 095.779 | DELTA: 04.851dpi |
-| PIXEL: 3840x2160 | SIZE: 41.50 | DPI: 106.164 | DELTA: 05.535dpi |
+| SIZE: 32.00 | PIXEL: 2560x1440 | DPI: 091.788 |        REFERENCE |
+|:-----------:|:----------------:|:------------:|:----------------:|
+| SIZE: 48.00 | PIXEL: 3840x2160 | DPI: 091.788 | DELTA: 00.000dpi |
+| SIZE: 24.00 | PIXEL: 1920x1080 | DPI: 091.788 | DELTA: 00.000dpi |
+| SIZE: 30.00 | PIXEL: 2560x1080 | DPI: 092.616 | DELTA: 00.828dpi |
+| SIZE: 49.00 | PIXEL: 3840x2160 | DPI: 089.915 | DELTA: 01.873dpi |
+| SIZE: 24.00 | PIXEL: 1920x1200 | DPI: 094.340 | DELTA: 02.552dpi |
+| SIZE: 23.00 | PIXEL: 1920x1080 | DPI: 095.779 | DELTA: 03.991dpi |
+| SIZE: 29.00 | PIXEL: 2560x1080 | DPI: 095.810 | DELTA: 04.022dpi |
 
-| PIXEL: 3440x1440 | SIZE: 34.00 | DPI: 109.683 |        REFERENCE |
-|:----------------:|:-----------:|:------------:|:----------------:|
-| PIXEL: 3840x1600 | SIZE: 38.00 | DPI: 109.474 | DELTA: 00.210dpi |
-| PIXEL: 3840x2160 | SIZE: 40.00 | DPI: 110.145 | DELTA: 00.462dpi |
-| PIXEL: 1920x1080 | SIZE: 20.00 | DPI: 110.145 | DELTA: 00.462dpi |
-| PIXEL: 2560x1440 | SIZE: 27.00 | DPI: 108.786 | DELTA: 00.898dpi |
-| PIXEL: 5120x1440 | SIZE: 49.00 | DPI: 108.544 | DELTA: 01.140dpi |
+| SIZE: 34.00 | PIXEL: 3440x1440 | DPI: 109.683 |        REFERENCE |
+|:-----------:|:----------------:|:------------:|:----------------:|
+| SIZE: 38.00 | PIXEL: 3840x1600 | DPI: 109.474 | DELTA: 00.210dpi |
+| SIZE: 40.00 | PIXEL: 3840x2160 | DPI: 110.145 | DELTA: 00.462dpi |
+| SIZE: 20.00 | PIXEL: 1920x1080 | DPI: 110.145 | DELTA: 00.462dpi |
+| SIZE: 27.00 | PIXEL: 2560x1440 | DPI: 108.786 | DELTA: 00.898dpi |
+| SIZE: 49.00 | PIXEL: 5120x1440 | DPI: 108.544 | DELTA: 01.140dpi |
+| SIZE: 37.50 | PIXEL: 3840x1600 | DPI: 110.933 | DELTA: 01.250dpi |
+| SIZE: 26.00 | PIXEL: 2560x1080 | DPI: 106.865 | DELTA: 02.818dpi |
+| SIZE: 35.00 | PIXEL: 3440x1440 | DPI: 106.550 | DELTA: 03.134dpi |
+| SIZE: 41.50 | PIXEL: 3840x2160 | DPI: 106.164 | DELTA: 03.519dpi |
 
-| PIXEL: 3840x2160 | SIZE: 40.00 | DPI: 110.145 |        REFERENCE |
-|:----------------:|:-----------:|:------------:|:----------------:|
-| PIXEL: 1920x1080 | SIZE: 20.00 | DPI: 110.145 | DELTA: 00.000dpi |
-| PIXEL: 3440x1440 | SIZE: 34.00 | DPI: 109.683 | DELTA: 00.462dpi |
-| PIXEL: 3840x1600 | SIZE: 38.00 | DPI: 109.474 | DELTA: 00.672dpi |
-| PIXEL: 3840x1600 | SIZE: 37.50 | DPI: 110.933 | DELTA: 00.788dpi |
-| PIXEL: 2560x1440 | SIZE: 27.00 | DPI: 108.786 | DELTA: 01.360dpi |
+| SIZE: 37.00 | PIXEL: 3840x2160 | DPI: 119.076 |        REFERENCE |
+|:-----------:|:----------------:|:------------:|:----------------:|
+| SIZE: 25.00 | PIXEL: 2560x1440 | DPI: 117.488 | DELTA: 01.588dpi |
+| SIZE: 45.00 | PIXEL: 5120x2160 | DPI: 123.488 | DELTA: 04.412dpi |
 
-| PIXEL: 5120x2160 | SIZE: 40.00 | DPI: 138.924 |        REFERENCE |
-|:----------------:|:-----------:|:------------:|:----------------:|
-| PIXEL: 7680x2160 | SIZE: 57.00 | DPI: 139.964 | DELTA: 01.040dpi |
-| PIXEL: 3840x2160 | SIZE: 32.00 | DPI: 137.682 | DELTA: 01.243dpi |
-| PIXEL: 3840x2160 | SIZE: 28.00 | DPI: 157.351 | DELTA: 18.426dpi |
-| PIXEL: 2560x1440 | SIZE: 25.00 | DPI: 117.488 | DELTA: 21.436dpi |
-| PIXEL: 3840x2160 | SIZE: 27.00 | DPI: 163.178 | DELTA: 24.254dpi |
+| SIZE: 37.50 | PIXEL: 3840x1600 | DPI: 110.933 |        REFERENCE |
+|:-----------:|:----------------:|:------------:|:----------------:|
+| SIZE: 40.00 | PIXEL: 3840x2160 | DPI: 110.145 | DELTA: 00.788dpi |
+| SIZE: 20.00 | PIXEL: 1920x1080 | DPI: 110.145 | DELTA: 00.788dpi |
+| SIZE: 34.00 | PIXEL: 3440x1440 | DPI: 109.683 | DELTA: 01.250dpi |
+| SIZE: 38.00 | PIXEL: 3840x1600 | DPI: 109.474 | DELTA: 01.460dpi |
+| SIZE: 27.00 | PIXEL: 2560x1440 | DPI: 108.786 | DELTA: 02.148dpi |
+| SIZE: 49.00 | PIXEL: 5120x1440 | DPI: 108.544 | DELTA: 02.390dpi |
+| SIZE: 26.00 | PIXEL: 2560x1080 | DPI: 106.865 | DELTA: 04.068dpi |
+| SIZE: 35.00 | PIXEL: 3440x1440 | DPI: 106.550 | DELTA: 04.384dpi |
+| SIZE: 41.50 | PIXEL: 3840x2160 | DPI: 106.164 | DELTA: 04.769dpi |
 
-| PIXEL: 3840x2160 | SIZE: 41.50 | DPI: 106.164 |        REFERENCE |
-|:----------------:|:-----------:|:------------:|:----------------:|
-| PIXEL: 3440x1440 | SIZE: 35.00 | DPI: 106.550 | DELTA: 00.385dpi |
-| PIXEL: 5120x1440 | SIZE: 49.00 | DPI: 108.544 | DELTA: 02.380dpi |
-| PIXEL: 3840x2160 | SIZE: 42.51 | DPI: 103.642 | DELTA: 02.522dpi |
-| PIXEL: 2560x1440 | SIZE: 27.00 | DPI: 108.786 | DELTA: 02.621dpi |
-| PIXEL: 3840x1600 | SIZE: 38.00 | DPI: 109.474 | DELTA: 03.309dpi |
+| SIZE: 38.00 | PIXEL: 3840x1600 | DPI: 109.474 |        REFERENCE |
+|:-----------:|:----------------:|:------------:|:----------------:|
+| SIZE: 34.00 | PIXEL: 3440x1440 | DPI: 109.683 | DELTA: 00.210dpi |
+| SIZE: 40.00 | PIXEL: 3840x2160 | DPI: 110.145 | DELTA: 00.672dpi |
+| SIZE: 20.00 | PIXEL: 1920x1080 | DPI: 110.145 | DELTA: 00.672dpi |
+| SIZE: 27.00 | PIXEL: 2560x1440 | DPI: 108.786 | DELTA: 00.688dpi |
+| SIZE: 49.00 | PIXEL: 5120x1440 | DPI: 108.544 | DELTA: 00.930dpi |
+| SIZE: 37.50 | PIXEL: 3840x1600 | DPI: 110.933 | DELTA: 01.460dpi |
+| SIZE: 26.00 | PIXEL: 2560x1080 | DPI: 106.865 | DELTA: 02.609dpi |
+| SIZE: 35.00 | PIXEL: 3440x1440 | DPI: 106.550 | DELTA: 02.924dpi |
+| SIZE: 41.50 | PIXEL: 3840x2160 | DPI: 106.164 | DELTA: 03.309dpi |
 
-| PIXEL: 3840x2160 | SIZE: 42.51 | DPI: 103.642 |        REFERENCE |
-|:----------------:|:-----------:|:------------:|:----------------:|
-| PIXEL: 3840x2160 | SIZE: 43.00 | DPI: 102.461 | DELTA: 01.181dpi |
-| PIXEL: 1920x1080 | SIZE: 21.50 | DPI: 102.461 | DELTA: 01.181dpi |
-| PIXEL: 3840x2160 | SIZE: 41.50 | DPI: 106.164 | DELTA: 02.522dpi |
-| PIXEL: 3440x1440 | SIZE: 35.00 | DPI: 106.550 | DELTA: 02.908dpi |
-| PIXEL: 2560x1600 | SIZE: 30.00 | DPI: 100.629 | DELTA: 03.013dpi |
+| SIZE: 40.00 | PIXEL: 3840x2160 | DPI: 110.145 |        REFERENCE |
+|:-----------:|:----------------:|:------------:|:----------------:|
+| SIZE: 20.00 | PIXEL: 1920x1080 | DPI: 110.145 | DELTA: 00.000dpi |
+| SIZE: 34.00 | PIXEL: 3440x1440 | DPI: 109.683 | DELTA: 00.462dpi |
+| SIZE: 38.00 | PIXEL: 3840x1600 | DPI: 109.474 | DELTA: 00.672dpi |
+| SIZE: 37.50 | PIXEL: 3840x1600 | DPI: 110.933 | DELTA: 00.788dpi |
+| SIZE: 27.00 | PIXEL: 2560x1440 | DPI: 108.786 | DELTA: 01.360dpi |
+| SIZE: 49.00 | PIXEL: 5120x1440 | DPI: 108.544 | DELTA: 01.602dpi |
+| SIZE: 26.00 | PIXEL: 2560x1080 | DPI: 106.865 | DELTA: 03.280dpi |
+| SIZE: 35.00 | PIXEL: 3440x1440 | DPI: 106.550 | DELTA: 03.596dpi |
+| SIZE: 41.50 | PIXEL: 3840x2160 | DPI: 106.164 | DELTA: 03.981dpi |
 
-| PIXEL: 3840x2160 | SIZE: 43.00 | DPI: 102.461 |        REFERENCE |
-|:----------------:|:-----------:|:------------:|:----------------:|
-| PIXEL: 1920x1080 | SIZE: 21.50 | DPI: 102.461 | DELTA: 00.000dpi |
-| PIXEL: 3840x2160 | SIZE: 42.51 | DPI: 103.642 | DELTA: 01.181dpi |
-| PIXEL: 2560x1600 | SIZE: 30.00 | DPI: 100.629 | DELTA: 01.832dpi |
-| PIXEL: 3840x2160 | SIZE: 41.50 | DPI: 106.164 | DELTA: 03.703dpi |
-| PIXEL: 3440x1440 | SIZE: 35.00 | DPI: 106.550 | DELTA: 04.089dpi |
+| SIZE: 40.00 | PIXEL: 5120x2160 | DPI: 138.924 |        REFERENCE |
+|:-----------:|:----------------:|:------------:|:----------------:|
+| SIZE: 57.00 | PIXEL: 7680x2160 | DPI: 139.964 | DELTA: 01.040dpi |
+| SIZE: 32.00 | PIXEL: 3840x2160 | DPI: 137.682 | DELTA: 01.243dpi |
+| SIZE: 28.00 | PIXEL: 2560x2880 | DPI: 137.618 | DELTA: 01.306dpi |
 
-| PIXEL: 5120x1440 | SIZE: 49.00 | DPI: 108.544 |        REFERENCE |
-|:----------------:|:-----------:|:------------:|:----------------:|
-| PIXEL: 2560x1440 | SIZE: 27.00 | DPI: 108.786 | DELTA: 00.242dpi |
-| PIXEL: 3840x1600 | SIZE: 38.00 | DPI: 109.474 | DELTA: 00.930dpi |
-| PIXEL: 3440x1440 | SIZE: 34.00 | DPI: 109.683 | DELTA: 01.140dpi |
-| PIXEL: 3840x2160 | SIZE: 40.00 | DPI: 110.145 | DELTA: 01.602dpi |
-| PIXEL: 1920x1080 | SIZE: 20.00 | DPI: 110.145 | DELTA: 01.602dpi |
+| SIZE: 41.50 | PIXEL: 3840x2160 | DPI: 106.164 |        REFERENCE |
+|:-----------:|:----------------:|:------------:|:----------------:|
+| SIZE: 35.00 | PIXEL: 3440x1440 | DPI: 106.550 | DELTA: 00.385dpi |
+| SIZE: 26.00 | PIXEL: 2560x1080 | DPI: 106.865 | DELTA: 00.701dpi |
+| SIZE: 49.00 | PIXEL: 5120x1440 | DPI: 108.544 | DELTA: 02.380dpi |
+| SIZE: 42.51 | PIXEL: 3840x2160 | DPI: 103.642 | DELTA: 02.522dpi |
+| SIZE: 27.00 | PIXEL: 2560x1440 | DPI: 108.786 | DELTA: 02.621dpi |
+| SIZE: 38.00 | PIXEL: 3840x1600 | DPI: 109.474 | DELTA: 03.309dpi |
+| SIZE: 34.00 | PIXEL: 3440x1440 | DPI: 109.683 | DELTA: 03.519dpi |
+| SIZE: 43.00 | PIXEL: 3840x2160 | DPI: 102.461 | DELTA: 03.703dpi |
+| SIZE: 21.50 | PIXEL: 1920x1080 | DPI: 102.461 | DELTA: 03.703dpi |
+| SIZE: 40.00 | PIXEL: 3840x2160 | DPI: 110.145 | DELTA: 03.981dpi |
+| SIZE: 20.00 | PIXEL: 1920x1080 | DPI: 110.145 | DELTA: 03.981dpi |
+| SIZE: 37.50 | PIXEL: 3840x1600 | DPI: 110.933 | DELTA: 04.769dpi |
 
-| PIXEL: 7680x2160 | SIZE: 57.00 | DPI: 139.964 |        REFERENCE |
-|:----------------:|:-----------:|:------------:|:----------------:|
-| PIXEL: 5120x2160 | SIZE: 40.00 | DPI: 138.924 | DELTA: 01.040dpi |
-| PIXEL: 3840x2160 | SIZE: 32.00 | DPI: 137.682 | DELTA: 02.283dpi |
-| PIXEL: 3840x2160 | SIZE: 28.00 | DPI: 157.351 | DELTA: 17.386dpi |
-| PIXEL: 2560x1440 | SIZE: 25.00 | DPI: 117.488 | DELTA: 22.476dpi |
-| PIXEL: 3840x2160 | SIZE: 27.00 | DPI: 163.178 | DELTA: 23.214dpi |
+| SIZE: 42.51 | PIXEL: 3840x2160 | DPI: 103.642 |        REFERENCE |
+|:-----------:|:----------------:|:------------:|:----------------:|
+| SIZE: 43.00 | PIXEL: 3840x2160 | DPI: 102.461 | DELTA: 01.181dpi |
+| SIZE: 21.50 | PIXEL: 1920x1080 | DPI: 102.461 | DELTA: 01.181dpi |
+| SIZE: 41.50 | PIXEL: 3840x2160 | DPI: 106.164 | DELTA: 02.522dpi |
+| SIZE: 35.00 | PIXEL: 3440x1440 | DPI: 106.550 | DELTA: 02.908dpi |
+| SIZE: 30.00 | PIXEL: 2560x1600 | DPI: 100.629 | DELTA: 03.013dpi |
+| SIZE: 26.00 | PIXEL: 2560x1080 | DPI: 106.865 | DELTA: 03.223dpi |
+| SIZE: 49.00 | PIXEL: 5120x1440 | DPI: 108.544 | DELTA: 04.902dpi |
+
+| SIZE: 43.00 | PIXEL: 3840x2160 | DPI: 102.461 |        REFERENCE |
+|:-----------:|:----------------:|:------------:|:----------------:|
+| SIZE: 21.50 | PIXEL: 1920x1080 | DPI: 102.461 | DELTA: 00.000dpi |
+| SIZE: 42.51 | PIXEL: 3840x2160 | DPI: 103.642 | DELTA: 01.181dpi |
+| SIZE: 30.00 | PIXEL: 2560x1600 | DPI: 100.629 | DELTA: 01.832dpi |
+| SIZE: 41.50 | PIXEL: 3840x2160 | DPI: 106.164 | DELTA: 03.703dpi |
+| SIZE: 35.00 | PIXEL: 3440x1440 | DPI: 106.550 | DELTA: 04.089dpi |
+| SIZE: 26.00 | PIXEL: 2560x1080 | DPI: 106.865 | DELTA: 04.404dpi |
+
+| SIZE: 49.00 | PIXEL: 5120x1440 | DPI: 108.544 |        REFERENCE |
+|:-----------:|:----------------:|:------------:|:----------------:|
+| SIZE: 27.00 | PIXEL: 2560x1440 | DPI: 108.786 | DELTA: 00.242dpi |
+| SIZE: 38.00 | PIXEL: 3840x1600 | DPI: 109.474 | DELTA: 00.930dpi |
+| SIZE: 34.00 | PIXEL: 3440x1440 | DPI: 109.683 | DELTA: 01.140dpi |
+| SIZE: 40.00 | PIXEL: 3840x2160 | DPI: 110.145 | DELTA: 01.602dpi |
+| SIZE: 20.00 | PIXEL: 1920x1080 | DPI: 110.145 | DELTA: 01.602dpi |
+| SIZE: 26.00 | PIXEL: 2560x1080 | DPI: 106.865 | DELTA: 01.679dpi |
+| SIZE: 35.00 | PIXEL: 3440x1440 | DPI: 106.550 | DELTA: 01.994dpi |
+| SIZE: 41.50 | PIXEL: 3840x2160 | DPI: 106.164 | DELTA: 02.380dpi |
+| SIZE: 37.50 | PIXEL: 3840x1600 | DPI: 110.933 | DELTA: 02.390dpi |
+| SIZE: 42.51 | PIXEL: 3840x2160 | DPI: 103.642 | DELTA: 04.902dpi |
+
+| SIZE: 57.00 | PIXEL: 7680x2160 | DPI: 139.964 |        REFERENCE |
+|:-----------:|:----------------:|:------------:|:----------------:|
+| SIZE: 40.00 | PIXEL: 5120x2160 | DPI: 138.924 | DELTA: 01.040dpi |
+| SIZE: 32.00 | PIXEL: 3840x2160 | DPI: 137.682 | DELTA: 02.283dpi |
+| SIZE: 28.00 | PIXEL: 2560x2880 | DPI: 137.618 | DELTA: 02.346dpi |
