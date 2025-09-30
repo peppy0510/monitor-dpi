@@ -82,7 +82,7 @@ class Monitor:
 
         if compared:
             for v, delta, sign in compared:
-                print(f'{v} DELTA: {delta:08.06f} mm ({sign}) |')
+                print(f'{v} DELTA: {delta:08.06f} mm (`{sign}`) |')
                 # print('{} DELTA: {:06.03f}dpi |'.format(v, delta))
             # print('-' * 68)
             print()
