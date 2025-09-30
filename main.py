@@ -47,7 +47,7 @@ class Monitor:
 
     def __repr__(self):
         line = ' | '.join([
-            f'SIZE: {self.size:05.02f}',
+            f'SIZE: {self.size:05.02f} inch ',
             f'PIXEL: {self.resolution.width:4d}x{self.resolution.height:4d}',
             # f'DPI: {self.dpi:07.03f}',
             f'PP: {self.pp:08.06f} mm',
@@ -68,7 +68,7 @@ class Monitor:
 
     def compare(self, monitors, sort=True, limit=None, delta_limit=None):
         print('{}                REFERENCE |'.format(self))
-        print('|:-----------:|:----------------:|:---------------:|:------------------------:|')
+        print('|:-----------------:|:----------------:|:---------------:|:------------------------:|')
         # print('{}        REFERENCE |'.format(self))
         # print('|:----------------:|:-----------:|:------------:|:----------------:|')
         compared = [(v, abs(self - v), '+' if self - v < 0 else '=' if self - v == 0 else '-')
