@@ -71,7 +71,7 @@ class Monitor:
         print('|:-----------:|:----------------:|:---------------:|:------------------------:|')
         # print('{}        REFERENCE |'.format(self))
         # print('|:----------------:|:-----------:|:------------:|:----------------:|')
-        compared = [(v, abs(self - v), '-' if self - v < 0 else '=' if self - v == 0 else '+')
+        compared = [(v, abs(self - v), '+' if self - v < 0 else '=' if self - v == 0 else '-')
                     for v in monitors.values() if v != self]
         if sort:
             compared = sorted(compared, key=itemgetter(1))
