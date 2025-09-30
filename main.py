@@ -67,21 +67,22 @@ class Monitor:
         return 25.4 / self.dpi
 
     def compare(self, monitors, sort=True, limit=None, delta_limit=None):
-        print('{}          REFERENCE |'.format(self))
-        print('|:-----------:|:----------------:|:---------------:|:------------------:|')
+        print('{}              REFERENCE |'.format(self))
+        print('|:-----------:|:----------------:|:---------------:|:----------------------:|')
         # print('{}        REFERENCE |'.format(self))
         # print('|:----------------:|:-----------:|:------------:|:----------------:|')
-        compared = [(v, abs(self - v)) for v in monitors.values() if v != self]
+        compared = [(v, abs(self - v), '-' if self - v < 0 else '=' if self - v == 0 else '+')
+                    for v in monitors.values() if v != self]
         if sort:
             compared = sorted(compared, key=itemgetter(1))
         if limit:
             compared = compared[:limit]
         if delta_limit:
-            compared = [v for v in compared if v[-1] <= delta_limit]
+            compared = [v for v in compared if v[1] <= delta_limit]
 
         if compared:
-            for v, delta in compared:
-                print('{} DELTA: {:08.06f} mm |'.format(v, delta))
+            for v, delta, sign in compared:
+                print(f'{v} DELTA: {delta:08.06f} mm ({sign}) |')
                 # print('{} DELTA: {:06.03f}dpi |'.format(v, delta))
             # print('-' * 68)
             print()
