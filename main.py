@@ -124,6 +124,7 @@ if __name__ == '__main__':
     monitors.compare(27, (2560, 1440), limit=limit, delta_limit=delta_limit)
     monitors.compare(30, (2560, 1600), limit=limit, delta_limit=delta_limit)
     monitors.compare(32, (2560, 1440), limit=limit, delta_limit=delta_limit)
+    monitors.compare(32, (3840, 2160), limit=limit, delta_limit=delta_limit)
     monitors.compare(34, (3440, 1440), limit=limit, delta_limit=delta_limit)
     monitors.compare(34, (5120, 2160), limit=limit, delta_limit=delta_limit)
     monitors.compare(37, (3840, 2160), limit=limit, delta_limit=delta_limit)
